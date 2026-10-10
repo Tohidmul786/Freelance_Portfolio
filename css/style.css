@@ -28,7 +28,7 @@ a { color: var(--accent); }
 a:hover { color: var(--accent-hover); }
 
 .nav {
-  max-width: 800px;
+  max-width: auto;
   margin: 0 auto;
   padding: 28px 24px 0;
   display: flex;
@@ -43,7 +43,7 @@ a:hover { color: var(--accent-hover); }
 .nav-links a:hover { color: var(--text); }
 
 .hero {
-  max-width: 800px;
+  max-width: auto;
   margin: 0 auto;
   padding: 72px 24px 48px;
 }
@@ -91,7 +91,7 @@ a:hover { color: var(--accent-hover); }
 .btn-outline:hover { border-color: var(--accent); color: var(--text); }
 
 .section {
-  max-width: 800px;
+  max-width: auto;
   margin: 0 auto;
   padding: 40px 24px;
   border-top: 1px solid var(--border);
@@ -133,13 +133,13 @@ a:hover { color: var(--accent-hover); }
 .contact-links a:hover { text-decoration: underline; }
 
 .footer {
-  max-width: 800px;
+  max-width: auto;
   margin: 0 auto;
   padding: 24px 24px 60px;
   color: var(--text-dim);
   font-size: 0.85rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: auto) {
   .nav-links { gap: 14px; }
 }
